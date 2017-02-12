@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressView">
+        <!-- 弧线宽度 -->
+        <attr name="arcWidth" format="dimension" />
+        <!-- 刻度个数 -->
+        <attr name="scaleCount" format="integer" />
+        <!-- 渐变起始颜色 -->
+        <attr name="startColor" format="color" />
+        <!-- 渐变终止颜色 -->
+        <attr name="endColor" format="color" />
+        <!-- 标签说明文本 -->
+        <attr name="labelText" format="string" />
+        <!-- 文本颜色 -->
+        <attr name="textColor" format="color" />
+        <!-- 百分比文本字体大小 -->
+        <attr name="progressTextSize" format="dimension" />
+        <!-- 标签说明字体大小 -->
+        <attr name="labelTextSize" format="dimension" />
+    </declare-styleable>
+</resources>
